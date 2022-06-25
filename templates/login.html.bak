@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Registor</title>
+		<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='styleform.css')}}">
+	</head>
+	<body id="reg">
+		<form action="\register" method="POST">
+			<table>
+			<tr>
+				<th><label>FirstName</label><th>
+				<td><input type="text" name="fname"><td>
+			</tr>
+			<tr>	
+				<th><label>LastName</label><th>
+				<td><input type="text" name="lname"><td>
+			</tr>
+			<tr>	
+				<th><label>E-mail</label><th>
+				<td><input type="email" name="mailid"><td>
+			</tr>
+			<tr>	
+				<th><label>Password</label><th>
+				<td><input type="password" name="pass"><td>
+			</tr>
+			<tr>
+				<th><label>PhoneNumber</label><th>
+				<td><input type="text" name="Pnmber"><td>
+			</tr>
+			<tr>	
+				<th><label>StreetName</label><th>
+				<td><input type="text" name="sname"><td>
+			</tr>
+			<tr>	
+				<th><label>PostalCode</label><th>
+				<td><input type="text" name="pcode"><td>
+			</tr>
+			<tr>	
+				<th><label>Country</label><th>
+				<td><input type="text" name="country"><td>
+			</tr>
+			<tr>	
+				<th><input type="submit" value="Register" ><th>
+			</tr>
+			</table>
+		</form>
+	</body>
+</html>
